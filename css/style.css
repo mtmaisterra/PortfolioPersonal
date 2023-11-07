@@ -1,0 +1,20 @@
+.logo{
+    width: 15%;
+    height: 15%;
+    background-color: rgb(64, 64, 114);
+}
+
+h1{
+    color: "#63D9FF";
+    text-align: center;
+    font-size: 50px;
+}
+
+a{
+    text-decoration: none;
+}
+footer{
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}

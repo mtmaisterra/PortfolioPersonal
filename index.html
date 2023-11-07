@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio Personal</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--titulo & icono-->
+    <link rel="shortcut icon" href="images/Yo 2 sin fondo.png">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+   
+</head>
+
+<body>
+    <!--Principal-->
+    <section id="main">
+        <!--Navegación-->
+<nav>
+    <!--logo-->
+    <img class="logo" src="images/Yo 2 sin fondo.png" alt="logo">
+<!--menú-->
+<div class="toggle"></div>
+<ul class="menu">
+<li class="active"><a href="#main">Inicio</a> </li>
+<li><a href="#about">Sobre mí</a></li>
+<li><a href="#services">Servicios</a></li>
+<li><a href="#portfolio">Portafolio</a></li>
+<li><a href="#contact-from">Contactame</a></li>
+</ul>
+</nav>
+<!--Nombre-->
+<div class="name">   
+    <!--Nombres-->
+    <h1>Soy Teresa Maisterra</h1>
+<!--Detalles-->
+<p class="details"> Desarrolladora web freelance,
+    que tiene un blog para dar a conocer parte de mi conocimiento y mi profesión,
+    para sí tener un portafolio amplio con mis creaciones en las que se encuentran 
+    el desarrollo general de sitios web, aplicaciones en java y javascript.
+</p>
+<!--cv boton-->
+
+</div>
+<!--flecha hacia abajo-->
+<div class="black line"></div>
+    </section>
+
+    <footer>
+        <p> &copy Derechos reservados - <span id="year"></span> - Desarrollado por María Teresa Maisterra -</p>     
+    </footer>
+</body>
+<script>
+    // Obtén el elemento del año por su ID
+    var yearElement = document.getElementById("year");
+  
+    // Obtén el año actual
+    var currentYear = new Date().getFullYear();
+  
+    // Establece el contenido del elemento al año actual
+    yearElement.textContent = currentYear;
+  </script>
+</html>
